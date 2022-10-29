@@ -1,6 +1,6 @@
 {
-    "name": "mortality_reminder",
-    "short_name": "mortality_reminder",
+    "name": "cursive_dictionary",
+    "short_name": "cursive_dictionary",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

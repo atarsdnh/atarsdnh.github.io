@@ -7737,8 +7737,7 @@ _.CW=$},
 uH:function uH(a){this.a=a},
 uG:function uG(a,b){this.a=a
 this.b=b},
-nX:function nX(a,b){this.c=a
-this.a=b},
+nX:function nX(a){this.a=a},
 PV:function PV(a){this.a=a},
 PU:function PU(){},
 PT:function PT(a){this.a=a},
@@ -34316,11 +34315,12 @@ A.uH.prototype={
 i(a){return this.a}}
 A.uG.prototype={}
 A.nX.prototype={
-ik(){var s=0,r=A.a4(t.z),q,p=this
+ik(){var s=0,r=A.a4(t.z),q,p
 var $async$ik=A.a5(function(a,b){if(a===1)return A.a1(b,r)
-while(true)switch(s){case 0:s=3
-return A.a0($.zA().IV("assets/poems.csv").bm(new A.PV(p),t.P),$async$ik)
-case 3:q=p.c
+while(true)switch(s){case 0:p=A.a([],t.xd)
+s=3
+return A.a0($.zA().IV("poems/poems.csv").bm(new A.PV(p),t.P),$async$ik)
+case 3:q=p
 s=1
 break
 case 1:return A.a2(q,r)}})
@@ -34328,7 +34328,7 @@ return A.a3($async$ik,r)},
 M(a){return A.adT(A.ac1(B.L4),new A.oa(this.ik(),new A.PU(),null,t.lH))}}
 A.PV.prototype={
 $1(a){var s,r,q=B.kZ.qz(a,t.z)
-for(s=this.a.c,r=1;r<q.length;++r){a=q[r]
+for(s=this.a,r=1;r<q.length;++r){a=q[r]
 s.push(new A.uQ(a[0],a[1],a[2],a[3]))}},
 $S:58}
 A.PU.prototype={
@@ -34412,7 +34412,7 @@ A.a53.prototype={
 $0(){return A.bW([this.a.vH()],t.z)},
 $S:0}
 A.a4Z.prototype={
-$1(a){return new A.nX(A.a([],t.xd),null)},
+$1(a){return new A.nX(null)},
 $S:166}
 A.a5_.prototype={
 $0(){},
